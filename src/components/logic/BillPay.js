@@ -31,7 +31,7 @@ export default class extends Component {
         return (
             <div>
                 <form onSubmit={SubmitHandler}>
-                    <h3>Welcome to A Simple Bill Pay App</h3>
+                    <h3>Welcome to Basic Split a Bill</h3>
                     <br/>
                     <h4>How much is the bill?</h4>
                     <input type="number" placeholder="$20" required onChange={e => {
